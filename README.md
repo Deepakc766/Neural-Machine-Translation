@@ -20,7 +20,7 @@ Multiple architectures were implemented and evaluated. The performance of each m
 | Seq2Seq (LSTM) | LSTM encoder-decoder to address vanishing gradients | 0.21 |
 | Bi-LSTM | Bidirectional encoder to capture richer context | 0.23 |
 | LSTM with Attention | Bahdanau additive attention for better alignment | 0.24 |
-| Transformer | Encoder-decoder self-attention architecture | In progress |
+| Transformer | Encoder-decoder self-attention architecture | 0.32 |
 
 Observations:
 
