@@ -1,9 +1,9 @@
 
-Rank in Training phase : 67/150
+Rank in Training phase : 67/150       Total submission intraining phase : 17
 
-Rank in testing phase :78/150
+Rank in testing phase :78/150          Total submission in test phase : 5
 
-final score=0.32
+Final score=0.32                      
 
 # Neural Machine Translation (English to Indian Languages)
 
