@@ -1,3 +1,10 @@
+
+Rank in Training phase : 67/150
+
+Rank in testing phase :78/150
+
+final score=0.32
+
 # Neural Machine Translation (English to Indian Languages)
 
 This repository contains the implementation of a Neural Machine Translation (NMT) system designed to translate English sentences into Indian languages, specifically Hindi and Bengali. The project is developed using the sequence-to-sequence (encoder-decoder) paradigm and follows a systematic progression from basic recurrent models to attention-based architectures. Work on transformer-based models is currently in progress. All models are trained from scratch using PyTorch, without relying on pre-trained transformer language models, in accordance with competition rules.
