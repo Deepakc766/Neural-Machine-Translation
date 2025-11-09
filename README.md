@@ -1,7 +1,7 @@
 
-Rank in Training phase : 67/150       Total submission intraining phase : 17
+Rank in Training phase : 67/150   ,                       Total submission intraining phase : 17
 
-Rank in testing phase :78/150          Total submission in test phase : 5
+Rank in testing phase :78/150     ,                       Total submission in test phase : 5
 
 Final score=0.32                      
 
