@@ -7,7 +7,8 @@
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 
 > **Author:** Deepak Chaurasia  
-> **Roll No:** 220330  
+> **Roll No:** 220330
+> deepakc22@iitk.ac.in
 > **Institute:** Indian Institute of Technology Kanpur  
 > **Course:** CS779 – Lifelong Learning with CIFAR-10 (Project: Machine Translation System for India)  
 >  
