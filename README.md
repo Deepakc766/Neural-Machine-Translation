@@ -1,10 +1,6 @@
 # 🌏 Neural Machine Translation for Indian Languages  
 **English → Hindi / Bengali**
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 
 > **Author:** Deepak Chaurasia  
 > **Roll No:** 220330
