@@ -89,9 +89,9 @@ Experimental Results
 
 | Model                        | Validation chrF++ | Test chrF++ | BLEU  | Rank |
 | ---------------------------- | ----------------- | ----------- | ----- | ---- |
-| Transformer (4-blocks + Aug) | **0.32**          | **0.29**    | 0.073 | 78   |
-| BiLSTM + Attention           | 0.28              | 0.25        | 0.060 | 100+ |
-| Seq2Seq (Baseline)           | 0.22              | 0.20        | 0.041 | —    |
+| Transformer (4-blocks + Aug) | **0.32**          | **0.29**    | 0.073 | 47   |
+| BiLSTM + Attention           | 0.28              | 0.25        | 0.070 | 57   |
+| Seq2Seq (Baseline)           | 0.22              | 0.20        | 0.041 | 88   |
 
 Error Analysis
 
