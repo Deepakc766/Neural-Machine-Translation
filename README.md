@@ -6,65 +6,18 @@
 > **Roll No:** 220330
 > deepakc22@iitk.ac.in
 > **Institute:** Indian Institute of Technology Kanpur  
-> **Course:** CS779 – Lifelong Learning with CIFAR-10 (Project: Machine Translation System for India)  
+> **Course:** CS779 –(Project: Machine Translation System for India)  
 >  
 > This repository implements and analyzes Neural Machine Translation (NMT) systems for **English → Hindi** and **English → Bengali**.  
 > It explores **Seq2Seq**, **BiLSTM with Attention**, and **Transformer** architectures with various preprocessing, tokenization, and optimization strategies.
 
----
-
-## 🧭 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Repository Structure](#repository-structure)
-3. [Setup Instructions](#setup-instructions)
-4. [Dataset Description](#dataset-description)
-5. [Data Preprocessing](#data-preprocessing)
-6. [Model Architectures](#model-architectures)
-7. [Training Configuration](#training-configuration)
-8. [Evaluation Metrics](#evaluation-metrics)
-9. [Experimental Results](#experimental-results)
-10. [Error Analysis](#error-analysis)
-11. [Reproduction Commands](#reproduction-commands)
-12. [Scripts & Notebooks](#scripts--notebooks)
-13. [Troubleshooting](#troubleshooting)
-14. [License](#license)
-15. [Acknowledgements](#acknowledgements)
-
----
 
 ## 📘 Project Overview
 
 This project focuses on **Neural Machine Translation (NMT)** for **low-resource Indic languages**, specifically translating from **English to Hindi** and **English to Bengali**.
 
-The models were trained using multiple architectures — **Seq2Seq**, **BiLSTM + Attention**, and **Transformer** — with different tokenization methods (**BPE**, **SentencePiece**).  
+The models were trained using multiple architectures —**GRU + Attention** **Seq2Seq**, **BiLSTM + Attention**, and **Transformer** — with different tokenization methods (**BPE**, **SentencePiece**).  
 The primary goal was to achieve the **highest chrF++** and **BLEU** scores while maintaining generalization across domains.
-
----
-
-## 📁 Repository Structure
-```bash
-.
-├── README.md
-├── data/
-│   ├── raw/                # Original datasets (train/val/test)
-│   └── processed/          # Tokenized and cleaned data
-├── src/
-│   ├── preprocess.py       # Text cleaning & subword tokenization
-│   ├── dataset.py          # PyTorch dataset utilities
-│   ├── models/
-│   │   ├── seq2seq.py
-│   │   ├── bilstm_attention.py
-│   │   └── transformer.py
-│   ├── train.py            # Main training loop
-│   ├── evaluate.py         # Evaluation (chrF, BLEU, ROUGE)
-│   └── infer.py            # Generate translations from checkpoints
-├── experiments/
-│   ├── configs/            # Model config YAMLs
-│   └── run_*.sh            # Example run scripts
-├── notebooks/              # Jupyter notebooks for analysis
-├── requirements.txt
-└── LICENSE
-
 
 
 | Dataset | Language Pair   | Train  | Validation | Test   |
